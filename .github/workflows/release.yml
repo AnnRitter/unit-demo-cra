@@ -121,6 +121,3 @@ jobs:
       # - name: Build and Release
       #   needs: check_tag
       #   if: needs.check_tag.outputs.isValid == 'true'
-      #   run: |
-      #     # Здесь выполняйте необходимые команды для сборки и релиза вашего проекта React,
-      #     # используя переменную ${{ needs.check_tag.outputs.tag }} для получения номера версии
